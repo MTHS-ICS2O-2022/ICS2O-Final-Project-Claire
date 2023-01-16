@@ -1,7 +1,7 @@
 # ICS2O-Final-Project-Claire
 
-[![Mr Coxall's Super Linter](https://github.com/MTHS-ICS2O-2022/ICS2O-Final-Project-Claire/workflows/Mr%20Coxall's%20Super%20Linter/badge.svg)](https://github.com/MTHS-ICS2O-2022/ICS2O-Final-Project-Claire/actions)
+[![Mr Coxall's Super Linter](https://github.com/Claire-Bedrossian/ICS2O-Final-Project-Claire/workflows/Mr%20Coxall's%20Super%20Linter/badge.svg)](https://github.com/Claire-Bedrossian/ICS2O-Final-Project-Claire/actions)
 
-[![Run on Repl.it](https://repl.it/badge/github/MTHS-ICS2O-2022/ICS2O-Final-Project-Claire)](https://repl.it/github/MTHS-ICS2O-2022/ICS2O-Final-Project-Claire)
+[![Run on Repl.it](https://repl.it/badge/github/Claire-Bedrossian/ICS2O-Final-Project-Claire)](https://repl.it/github/Claire-Bedrossian/ICS2O-Final-Project-Claire)
 
-This site can be found at: [https://MTHS-ICS2O-2022/ICS2O-Final-Project-Claire/](https://MTHS-ICS2O-2022/ICS2O-Final-Project-Claire/)
+This site can be found at: [https://Claire-Bedrossian/ICS2O-Final-Project-Claire/](https://Claire-Bedrossian/ICS2O-Final-Project-Claire/)
