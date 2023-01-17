@@ -58,7 +58,52 @@
         </div>
       </header>
       <main class="mdl-layout__content">
-        <div id=""></div>
+        <form>
+          <h5>Select your zodiac sign below...</h5>
+          <div
+            class="mdl-selectfield mdl-js-selectfield mdl-selectfield--floating-label"
+          >
+            <select class="mdl-selectfield__select" id="zodiac" name="zodiac">
+              <option value="Aries">Aries</option>
+              <option value="Taurus">Taurus</option>
+              <option value="Gemini">Gemini</option>
+              <option value="Cancer">Cancer</option>
+              <option value="Leo">Leo</option>
+              <option value="Virgo">Virgo</option>
+              <option value="Libra">Libra</option>
+              <option value="Scorpio">Scorpio</option>
+              <option value="Sagitarius">Sagitarius</option>
+              <option value="Capricorn">Capricorn</option>
+              <option value="Aquarius">Aquarius</option>
+              <option value="Pisces">Pisces</option>
+            </select>
+          </div>
+        </form>
+        <form>
+          <h5>Select your horoscope topic below...</h5>
+          <div
+            class="mdl-selectfield mdl-js-selectfield mdl-selectfield--floating-label"
+          >
+            <select
+              class="mdl-selectfield__select"
+              id="horoscope-topic"
+              name="horoscope-topic"
+            >
+              <option value="Work">Work</option>
+              <option value="Money">Money</option>
+              <option value="Health">Health</option>
+            </select>
+          </div>
+          <br />
+          <!-- Raised button with ripple -->
+          <button
+            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+            onclick="myButtonClicked()"
+          >
+            Generate
+          </button>
+        </form>
+        <div id="horoscope"></div>
       </main>
     </div>
   </body>

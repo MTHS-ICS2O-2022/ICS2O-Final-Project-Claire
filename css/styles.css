@@ -2,3 +2,42 @@
 * Created on: Jan 2023
 * This file contains the CSS for index.html
 */
+
+.mdl-layout__header-row {
+  align-items: center;
+  justify-content: center;
+}
+
+.mdl-layout__content {
+  padding-left: 15pt;
+  padding-right: 15pt;
+  padding-top: 15pt;
+}
+
+/* Due to error in MDL : https://github.com/google/material-design-lite/issues/5281
+*/
+.mdl-ripple {
+  background: #000;
+  opacity: 0.001;
+}
+
+body {
+  background-color: white;
+}
+
+h1 {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: #000;
+  text-align: center;
+}
+
+div {
+}
+
+img {
+  height: auto;
+}
