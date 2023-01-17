@@ -133,8 +133,7 @@ function myButtonClicked() {
   } else if (zodiac == "Pisces" && topic == "Money") {
     document.getElementById("horoscope").innerHTML =
       "<p>We're here to learn, not control. Activity in your house of travel, languages, and higher education means that you may find increased access to money when you take your skills to markets outside Canada. Go online to connect to new customers. </p>"
-  }
-    else {
+  } else {
     document.getElementById("horoscope").innerHTML =
       "<p>You did not select anything?</p>"
   }
