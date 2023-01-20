@@ -22,6 +22,77 @@ function myButtonClicked() {
   var zodiac = document.getElementById("zodiac").value
   var topic = document.getElementById("horoscope-topic").value
 
+  if (zodiac == "Aries") {
+    document.getElementById("zodiac-image").innerHTML =
+      '<img src= ./images/aries.png alt="API image" class="center" width= 50% height 50%' +
+      ">" +
+      "<p></p>" +
+      "<h4>Aries are fiery, passionate and high energy fire signs.</h4>"
+  } else if (zodiac == "Taurus") {
+    document.getElementById("zodiac-image").innerHTML =
+      '<img src= ./images/taurus.png alt="API image" class="center" width= 50% height 50%' +
+      ">" +
+      "<p></p>" +
+      "<h4>Taurus are hard-headed, down-to-earth and tenacious earth signs.</h4>"
+  } else if (zodiac == "Gemini") {
+    document.getElementById("zodiac-image").innerHTML =
+      '<img src= ./images/gemini.png alt="API image" class="center" width= 50% height 50%' +
+      ">" +
+      "<p></p>" +
+      "<h4>Gemini are flexible, extroverted, and clever air signs.</h4>"
+  } else if (zodiac == "Cancer") {
+    document.getElementById("zodiac-image").innerHTML =
+      '<img src= ./images/cancer.png alt="API image" class="center" width= 50% height 50%' +
+      ">" +
+      "<p></p>" +
+      "<h4>Cancers are nurturing, loya;, and protective water signs.</h4>"
+  } else if (zodiac == "Leo") {
+    document.getElementById("zodiac-image").innerHTML =
+      '<img src= ./images/leo.png alt="API image" class="center" width= 50% height 50%' +
+      ">" +
+      "<p></p>" +
+      "<h4>Leos are confident, comfortable being the center of attention and drama-adoring fire signs.</h4>"
+  } else if (zodiac == "Virgo") {
+    document.getElementById("zodiac-image").innerHTML =
+      '<img src= ./images/virgo.png alt="API image" class="center" width= 50% height 50%' +
+      ">" +
+      "<p></p>" +
+      "<h4>Virgos are humble, self-effacing, industrious, and practical earth signs.</h4>"
+  } else if (zodiac == "Libra") {
+    document.getElementById("zodiac-image").innerHTML =
+      '<img src= ./images/libra.png alt="API image" class="center" width= 50% height 50%' +
+      ">" +
+      "<p></p>" +
+      "<h4>Libras are charming, beautiful, and well-balanced air signs.</h4>"
+  } else if (zodiac == "Scorpio") {
+    document.getElementById("zodiac-image").innerHTML =
+      '<img src= ./images/scorpio.png alt="API image" class="center" width= 50% height 50%' +
+      ">" +
+      "<p></p>" +
+      "<h4>Scorpios are determined, brave, and loyal water signs.</h4>"
+  } else if (zodiac == "Sagittarius") {
+    document.getElementById("zodiac-image").innerHTML =
+      '<img src= ./images/sagittarius.png alt="API image" class="center" width= 50% height 50%' +
+      ">" +
+      "<p></p>" +
+      "<h4>Sagittarius are optimistic, lovers of freedom and hilarious fire signs.</h4>"
+  } else if (zodiac == "Aquarius") {
+    document.getElementById("zodiac-image").innerHTML =
+      '<img src= ./images/scorpio.png alt="API image" class="center" width= 50% height 50%' +
+      ">" +
+      "<p></p>" +
+      "<h4>Aquarius are progressive, independent, intelligent, unique, and idealistic air signs.</h4>"
+  } else if (zodiac == "Pisces") {
+    document.getElementById("zodiac-image").innerHTML =
+      '<img src= ./images/pisces.png alt="API image" class="center" width= 50% height 50%' +
+      ">" +
+      "<p></p>" +
+      "<h4>Aquarius are compassionate, artistic and deeply emotional water signs.</h4>"
+  } else {
+    document.getElementById("zodiac-image").innerHTML =
+      "<p>You did not select anything.</p>"
+  }
+
   if (zodiac == "Aries" && topic == "Work") {
     document.getElementById("horoscope").innerHTML =
       "<p>Your tendency is to take the lead on something that needs immediate attention. Be careful. You are not the best one suited for the job - so let someone else do it.</p>"
