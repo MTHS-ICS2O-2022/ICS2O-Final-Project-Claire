@@ -76,9 +76,15 @@ function myButtonClicked() {
       ">" +
       "<p></p>" +
       "<h4>Sagittarius are optimistic, lovers of freedom and hilarious fire signs.</h4>"
+      } else if (zodiac == "Capricorn") {
+    document.getElementById("zodiac-image").innerHTML =
+      '<img src= ./images/capricorn.png alt="API image" class="center" width= 50% height 50%' +
+      ">" +
+      "<p></p>" +
+      "<h4>Capricorns are overachievers, persistent and practical earth signs.</h4>"
   } else if (zodiac == "Aquarius") {
     document.getElementById("zodiac-image").innerHTML =
-      '<img src= ./images/scorpio.png alt="API image" class="center" width= 50% height 50%' +
+      '<img src= ./images/aquarius.png alt="API image" class="center" width= 50% height 50%' +
       ">" +
       "<p></p>" +
       "<h4>Aquarius are progressive, independent, intelligent, unique, and idealistic air signs.</h4>"
@@ -87,7 +93,7 @@ function myButtonClicked() {
       '<img src= ./images/pisces.png alt="API image" class="center" width= 50% height 50%' +
       ">" +
       "<p></p>" +
-      "<h4>Aquarius are compassionate, artistic and deeply emotional water signs.</h4>"
+      "<h4>Pisces are compassionate, artistic and deeply emotional water signs.</h4>"
   } else {
     document.getElementById("zodiac-image").innerHTML =
       "<p>You did not select anything.</p>"
