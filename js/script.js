@@ -76,7 +76,7 @@ function myButtonClicked() {
       ">" +
       "<p></p>" +
       "<h4>Sagittarius are optimistic, lovers of freedom and hilarious fire signs.</h4>"
-      } else if (zodiac == "Capricorn") {
+  } else if (zodiac == "Capricorn") {
     document.getElementById("zodiac-image").innerHTML =
       '<img src= ./images/capricorn.png alt="API image" class="center" width= 50% height 50%' +
       ">" +
